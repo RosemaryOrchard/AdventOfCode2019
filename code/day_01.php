@@ -8,8 +8,7 @@ function partOne($input)
     foreach ($input as $fuel) {
         $totalFuel += floor((int)$fuel / 3) - 2;
     }
-    $output = $totalFuel;
-    return $output;
+    return $totalFuel;
 }
 
 function partTwo($input)
@@ -24,8 +23,8 @@ function partTwo($input)
             $currentFuel = $temp;
         }
     }
-    $output = $totalFuel;
-    return $output;
+    return $totalFuel;
+  
 }
 
 print 'Part One: ' . partOne($input);
