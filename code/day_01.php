@@ -23,7 +23,6 @@ function partTwo($input)
             if ($temp < 0) $temp = 0;
             $totalFuel += $temp;
             $currentFuel = $temp;
-            print "\t" . $temp . "\n";
         }
     }
     $output = $totalFuel;
