@@ -17,7 +17,6 @@ function partTwo($input)
     $totalFuel = 0;
     foreach ($input as $fuel) {
         $currentFuel = $fuel;
-        print $fuel . "\n";
         while ($currentFuel > 0) {
             $temp = floor($currentFuel / 3) - 2;
             if ($temp < 0) $temp = 0;
